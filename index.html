@@ -207,7 +207,8 @@
             </section>
 
             <section class="products" id="products">
-                <h2>OUR <span>PRODUCTS</span></h2>
+                <h2 class="white_products_text">OUR</h2>
+                <h2 class="yellow_products_text">PRODUCTS</h2>
 
                 <div class="product-cards">
                     <div class="product-card">
@@ -285,7 +286,7 @@
                         American tribe called the Mayans.
                     </p>
 
-                    <button class="sellers_button">Buy now</button>
+                    <button class="sellers_button" id="btn-open2">Buy now</button>
                 </div>
             </section>
 
@@ -338,7 +339,7 @@
                     <span></span>
                 </div>
 
-                <button class="review_button">Leave a review</button>
+                <button class="review_button" id="btn-open3">Leave a review</button>
             </section>
 
             <section class="subscribe">
@@ -352,7 +353,7 @@
                     and sophistication.
                 </p>
 
-                <button class="orange-button">Subscribe</button>
+                <button class="orange-button" id="btn-open4">Subscribe</button>
             </section>
 
         </main>
@@ -388,6 +389,128 @@
                 <a href="#reviews">Chocolate is loved</a>
             </div>
         </footer>
+
+        <div class="modal" id="modal2">
+            <div class="modal-content">
+                <button class="modal-close" id="btn-close2">×</button>
+
+                <h2><span>BUY</span> NOW</h2>
+
+                <div class="buy-products">
+                    <div class="buy-product">
+                        <!-- Фото шоколаду 100 g -->
+                        <img src="" alt="Chocolate 100 g">
+                        <p>100 g</p>
+                    </div>
+
+                    <div class="buy-product">
+                        <!-- Фото шоколаду 200 g -->
+                        <img src="" alt="Chocolate 200 g">
+                        <p>200 g</p>
+                    </div>
+
+                    <div class="buy-product">
+                        <!-- Фото шоколаду 300 g -->
+                        <img src="" alt="Chocolate 300 g">
+                        <p>300 g</p>
+                    </div>
+                </div>
+
+                <form class="buy-form">
+                    <label>Personal information</label>
+
+                    <div class="name-fields">
+                        <input type="text" placeholder="Name" required>
+                        <input type="text" placeholder="Surname" required>
+                    </div>
+
+                    <label>Email</label>
+                    <input type="email" placeholder="Enter your email" required>
+
+                    <label>Phone number</label>
+                    <div class="phone-field">
+                        <!-- Фото прапора України -->
+                        <img src="./Images/ukraine.webp">
+                        <span>+380</span>
+                        <input type="tel" placeholder="Phone number" required>
+                    </div>
+
+                    <label>Card number</label>
+                    <div class="card-field">
+                        <input type="text" placeholder="Enter card">
+                        <!-- Фото Mastercard -->
+                        <img src="" alt="Mastercard">
+                    </div>
+
+                    <label>Comment</label>
+                    <textarea placeholder="Enter text"></textarea>
+
+                    <button type="submit" class="orange-button">Submit</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="modal" id="modal3">
+            <div class="modal-content">
+                <button class="modal-close" id="btn-close3">×</button>
+
+                <h2>
+                    LEAVE A REVIEW ABOUT<br>
+                    <span>OUR CHOCOLATE</span>
+                </h2>
+
+                <form class="review-form">
+                    <input type="text" placeholder="Name" required>
+                    <input type="email" placeholder="Email" required>
+
+                    <div class="phone-field">
+                        <!-- Фото прапора України -->
+                        <img src="./Images/ukraine.webp">
+                        <span>+380</span>
+                        <input type="tel" placeholder="Phone number" required>
+                    </div>
+
+                    <textarea placeholder="Enter text"></textarea>
+
+                    <button type="submit" class="orange-button" id="btn-open5">Send</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="modal" id="modal4">
+            <div class="modal-content subscribe-content">
+                <button class="modal-close" id="btn-close4">×</button>
+
+                <!-- Фото шоколаду для модального вікна -->
+                <img src="" alt="Chocolate" class="subscribe-image">
+
+                <div class="subscribe-form-content">
+                    <h2>
+                        EXPLORE OUR<br>
+                        <span>NEW CHOCOLATE</span> FIRST!
+                    </h2>
+
+                    <form class="subscribe-form">
+                        <input type="email" placeholder="Enter your email" required>
+                        <button type="submit" class="orange-button">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal" id="modal5">
+            <div class="modal-content thank-you-content">
+                <button class="modal-close" id="btn-close5">X</button>
+
+               
+                <img src="./Images/review_modal_thanks.webp" class="thank-you-image">
+
+                <div class="thank-you-text">
+                    <h2 class="super_mini_modal">THANK YOU FOR YOUR FEEDBACK!</h2>
+                    <p>We are so happy to hear from you!</p>
+                </div>
+            </div>
+        </div>
 
 </body>
 </html>
