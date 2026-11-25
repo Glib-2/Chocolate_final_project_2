@@ -4,546 +4,798 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Simply Chocolate</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-   
+    <header class="header">
 
-        <header class="header">
-            <div class="logo">
-                <h2>SIMPLY CHOCOLATE</h2>
+        <div class="logo">
+            <h2>SIMPLY CHOCOLATE</h2>
+            <img src="./Images/chocolate_logo.webp">
+        </div>
 
-                <img src="./Images/chocolate_logo.webp">
-            </div>
+        <nav class="nav">
+            <a href="#home">Home</a>
+            <a href="#made">How it's made?</a>
+            <a href="#products">Our products</a>
+            <a href="#sellers">Top sellers</a>
+            <a href="#reviews">Chocolate is loved</a>
+        </nav>
 
-            <nav class="nav">
-                <a href="#home">Home</a>
-                <a href="#made">How it's made?</a>
-                <a href="#products">Our products</a>
-                <a href="#sellers">Top sellers</a>
-                <a href="#reviews">Chocolate is loved</a>
-            </nav>
+        <div class="socials">
+            <img src="./Images/networks_logo.webp">
+        </div>
 
-            <div class="socials">
-                <img src="./Images/networks_logo.webp">
-            </div>
+        <div class="burger-menu">
 
-            <div class="burger-menu">
-                <input type="checkbox" id="burger-toggle">
+            <button class="burger-button" id="openbtnBurger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
 
-                <label for="burger-toggle" class="burger-button">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </label>
+            <nav class="burger" id="modalBurger">
 
-                <nav class="burger">
+                <button class="burger-close" id="closebtnBurger">
+                    ×
+                </button>
+
+                <div class="burger-links">
                     <a href="#home">Home</a>
                     <a href="#made">How it's made?</a>
                     <a href="#products">Our products</a>
                     <a href="#sellers">Top sellers</a>
                     <a href="#reviews">Chocolate is loved</a>
-                </nav>
-            </div>
-
-        </header>
-
-        <main>
-
-            <section class="hero" id="home">
-                <div class="hero-content">
-                    <h1>
-                        Treat yourself or a loved one to
-                        our finest ingredients for a moment
-                        of pure delight!
-                    </h1>
-
-                    <div class="hero-buttons">
-                        <a href="#products" class="orange-button">Buy now</a>
-                        <a href="#made" class="outline-button">How it's made</a>
-                    </div>
                 </div>
 
-                <a href="#benefits" class="scroll">
-                    Scroll down
-                </a>
-            </section>
-
-            <section class="benefits" id="benefits">
-                <div class="benefit">
-
-                    <img src="./Images/chocolate_section_1.webp">
-                    <h3>Unsurpassed taste</h3>
-                    <p class="benefit_p">
-                        Crafted with the finest quality cocoa beans
-                        and a delicate balance of ingredients,
-                        our chocolates are a delight for the senses.
-                    </p>
-                </div>
-
-                <div class="benefit">
-
-                    <img src="/Images/Coin_section_1.webp">
-                    <h3>Affordable price</h3>
-                    <p class="benefit_p">
-                        Indulge in high-quality chocolate without
-                        breaking the bank. Our chocolates are
-                        affordable and delicious.
-                    </p>
-
-                </div>
-
-                <div class="benefit">
-
-                    
-                    <img src="./Images/spoon_section_1.webp">
-                    <h3>Own production</h3>
-                    <p class="benefit_p">
-                        We take pride in our own production process,
-                        ensuring that every chocolate is made
-                        with care and attention.
-                    </p>
-
-                </div>
-
-            </section>
-
-            <section class="ingredients">
-
-                <h2 class="h2_ingredients">
-                    IT ALL ADDS UP TO ONE EXCEPTIONAL 
-                </h2>
-                <h2 class="yellow_Text_ingredients">
-                    TASTE
-                </h2>
-                <h2 class="h2_ingredients_2">
-                    SENSATION
-                </h2>
-
-                <p class="ingredients-mini_text">
-                    At Simply Chocolate, we believe that the secret
-                    to exceptional chocolate lies in the details.
-                    From the sourcing of the finest ingredients
-                    to the careful crafting of each individual piece,
-                    every step of our process is a labor of love.
-                </p>
-
-                <div class="ingredients-cards">
-                    <div class="scene">
-                        <div class="card">
-                            <div class="front ingredient-card milk-chocolate">
-                                <img src="./Images/choclate_section_2.webp">
-                                <h3>MILK CHOCOLATE</h3>
-                            </div>
-                            <div class="back">
-                                <h3>MILK CHOCOLATE</h3>
-                                <button>chocolate</button>
-                                <button>the benefits</button>
-                                <p>Milk chocolate is a solid chocolate confectionery containing cocoa, sugar and milk. It is the most consumed type of chocolate. Chocolate was originally sold and consumed as a beverage in pre-Columbian times...</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="scene">
-                        <div class="card">
-                            <div class="front ingredient-card milk">
-                                <img src="./Images/milk_section_2.webp">
-                                <h3>MILK</h3>
-                            </div>
-                            <div class="back">
-                                <h3>MILK</h3>
-                                <button>milk</button>
-                                <button>the benefits</button>
-                                <p>Milk is a white liquid food produced by the mammary glands of mammals. It is the primary source of nutrition for young mammals, including breastfed human infants, before they are able to digest solid food.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="scene">
-                        <div class="card">
-                            <div class="front ingredient-card nuts">
-                                <img src="./Images/nuts_section_2.webp">
-                                <h3>NUTS</h3>
-                            </div>
-                            <div class="back">
-                                <h3>NUTS</h3>
-                                <button>nuts</button>
-                                <button>the benefits</button>
-                                <p>Almonds, pistachios, and walnuts are some types of nuts that contain healthy nutrients. When eaten as part of a nutrient-dense diet, these 9 nuts may offer benefits such as reducing your risk of heart disease.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="scene">
-                        <div class="card">
-                            <div class="front ingredient-card sweet-chocolate">
-                                <img src="./Images/chocolate_chip_section_2.webp">
-                                <h3>SEMI-SWEET CHOCOLATE</h3>
-                            </div>
-                            <div class="back">
-                                <h3>SEMI-SWEET CHOCOLATE</h3>
-                                <button>sweet chocolate</button>
-                                <button>the benefits</button>
-                                <p>Semi-sweet chocolate has a cocoa solid content of 35 to 65%. One of the best ways to gain an understanding of this type of chocolate is to compare it to a different type of chocolate.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="made-section" id="made">
-                <div>
-                <h2>HOW IT'S</h2>
-                <h2>MADE</h2>
-                </div>
-
-                <div class="made-content">
-                    <div class="made-image">
-
-                        <img src="./Images/chocolate_smthg_section_3.webp">
-                        <img src="./Images/play_section_3.webp">
-                    </div>
-
-                    <div class="made-text">
-                        <h3 class="video_h3">
-                            Try our chocolates today and
-                            discover the perfect balance of flavor
-                        </h3>
-
-                        <ul>
-                            <li>
-                                Heat the milk in a saucepan without
-                                bringing it to a boil. Add sugar and
-                                cocoa powder.
-                            </li>
-                            <li>
-                                At the same time, prepare a water bath.
-                                Melt the butter on it.
-                            </li>
-                            <li>
-                                Mix the milk mixture and melted butter.
-                                Mix thoroughly until a smooth consistency.
-                            </li>
-                            <li>
-                                Heat the mixture over low heat,
-                                stirring it constantly.
-                            </li>
-                            <li>
-                                Pour the chocolate into special containers
-                                and place in the refrigerator.
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-
-            <section class="products" id="products">
-                <h2 class="white_products_text">OUR</h2>
-                <h2 class="yellow_products_text">PRODUCTS</h2>
-
-                <div class="product-cards">
-                    <div class="product-card">
-
-                        <img src="./Images/orange_chocolate_section_4.webp">
-                        <h3>ORANGE</h3>
-                        <p>Dark chocolate</p>
-                        <button>45 UAH</button>
-                    </div>
-
-                    <div class="product-card">
-
-                        <img src="./Images/cranberry_chocolate_section_4.webp">
-                        <h3>APPLE&CRANBERRY</h3>
-                        <p>Milk chocolate</p>
-                        <button>50 UAH</button>
-                    </div>
-
-                    <div class="product-card">
-
-                        <img src="./Images/sea_salt_chocolate_section_4.webp">
-                        <h3>LIME&SEA SALT</h3>
-                        <p>Dark chocolate</p>
-                        <button>66 UAH</button>
-                    </div>
-
-                    <div class="product-card">
-
-                        <img src="./Images/pineapple_chocolate_section_4.webp">
-                        <h3>PINEAPPLE</h3>
-                        <p>Dark chocolate</p>
-                        <button>54 UAH</button>
-                    </div>
-                </div>
-
-                <div class="dots">
-
-                    <span class="active-dot"></span>
-                    <span class="mini_dot"></span>
-                    <span class="mini_dot"></span>
-                    <span class="mini_dot"></span>
-                    <span class="mini_dot"></span>
-                    <span class="mini_dot"></span>
-
-                </div>
-
-            </section>
-
-            <section class="top-sellers" id="sellers">
-
-                <div class="sellers_mini_text">
-                    <h2 class="sellers_mini_logo_1">TOP</h2>
-                    <h2 class="sellers_mini_logo_2">SELLERS</h2>
-
-                </div>
-
-                <div class="seller-images">
-
-                    <img src="./Images/nut_section_5.webp">
-
-
-                    <img src="./Images/chocolate_section_5.webp">
-
-
-                    <img src="./Images/rocher_section_5.webp">
-
-                </div>
-
-                <div class="sellers-bottom">
-                    <p class="sellers_P">
-                        Crazy enough chocolate originates from a bean
-                        just like the coffee bean called Cacao.
-                        Cacao has been around for thousands of years
-                        and was first discovered by the Native
-                        American tribe called the Mayans.
-                    </p>
-
-                    <button class="sellers_button" id="btn-open2">Buy now</button>
-                </div>
-            </section>
-
-            <section class="reviews" id="reviews">
-                <div class="mini_text_reviews">
-                    <h2 class="first_mini_text_review">CHOCOLATE</h2>
-                    <h2 class="second_mini_text_review">IS LOVED</h2>
-                </div>
-
-                <div class="review-cards">
-                    <div class="review-card">
-
-                        <img src="./Images/first_person_section_6.webp">
-                        <h3 class="review_card_h3">Victoria Dobrzhanska</h3>
-                        <p class="review_card_p">
-                            I love this chocolate bar. Perfect
-                            combination of light crispy wafer,
-                            covered in a thin layer of chocolate.
-                        </p>
-                    </div>
-
-                    <div class="review-card">
-
-                        <img src="./Images/second_person_section_6.webp">
-                        <h3 class="review_card_h3">Nazar Babenko</h3>
-                        <p class="review_card_p">
-                            This chocolate confection is a delight.
-                            The taste is rich and the texture
-                            is smooth. I recommend it to everyone.
-                        </p>
-                    </div>
-
-                    <div class="review-card">
-
-                        <img src="./Images/third_person_section_6.webp">
-                        <h3 class="review_card_h3">Olena Kampusch</h3>
-                        <p class="review_card_p">
-                            Chocolate is a family favourite.
-                            The taste is wonderful and
-                            the quality is always excellent.
-                        </p>
-                    </div>
-
-                </div>
-
-                <div class="dots">
-                    <span class="big_dot"></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-
-                <button class="review_button" id="btn-open3">Leave a review</button>
-            </section>
-
-            <section class="subscribe">
-                <h2>EXPLORE OUR NEW<br>CHOCOLATE FIRST</h2>
-
-                <p>
-                    From the velvety texture to the rich and complex
-                    flavor, our New Chocolate is a true indulgence
-                    that will leave you craving more.
-                    Discover the perfect balance of sweetness
-                    and sophistication.
-                </p>
-
-                <button class="orange-button" id="btn-open4">Subscribe</button>
-            </section>
-
-        </main>
-
-        <footer class="footer">
-            <div class="footer-top">
-                <h2 class="yellow_text_footer">Chocolate</h2>
-                <h2 class="white_text_footer">a delicious</h2>
-                <h2 class="white_text_footer_2">cure for a bad day</h2>
-
-                <div class="footer-contact">
-                    <p>Contact us</p>
-                    <a>+380 (68) 443-94-26</a>
-                    <a>
-                        simplychoc@gmail.com
-                    </a>
-                </div>
-
-                <div class="footer-socials">
+                <div class="burger-socials">
                     <img src="./Images/networks_2.webp">
                 </div>
-            </div>
 
-            <div class="footer-bottom">
-                <a href="#home">Home</a>
-                <a href="#made">How it's made?</a>
-                <a href="#products">Our products</a>
-                <a href="#sellers">Top sellers</a>
-                <a href="#reviews">Chocolate is loved</a>
-            </div>
-        </footer>
+            </nav>
 
-        <div class="modal" id="modal2">
-            <div class="modal-content">
-                <button class="modal-close" id="btn-close2">×</button>
-
-                <h2><span>BUY</span> NOW</h2>
-
-                <div class="buy-products">
-                    <div class="buy-product">
-                        
-                        <img class="buy-product-img" src="./Images/first_modal_chocolate.webp" alt="Chocolate 100 g">
-                        <p class="buy-product-text">100 g</p>
-                        
-                    </div>
-
-                    <div class="buy-product">
-                        
-                        <img class="buy-product-img" src="./Images/first_modal_chocolate_2.webp" alt="Chocolate 200 g">
-                        <p class="buy-product-text">200 g</p>
-
-                    </div>
-
-                    <div class="buy-product">
-                        
-                        <img class="buy-product-img" src="./Images/first_modal_chocolate_3.webp" alt="Chocolate 300 g">
-                        <p class="buy-product-text">300 g</p>
-
-                    </div>
-                </div>
-
-                <form class="buy-form">
-                    <label>Personal information</label>
-
-                    <div class="name-fields">
-                        <input type="text" placeholder="Name" required>
-                        <input type="text" placeholder="Surname" required>
-                    </div>
-
-                    <label>Email</label>
-                    <input type="email" placeholder="Enter your email" required>
-
-                    <label>Phone number</label>
-                    <div class="phone-field">
-
-                        <img src="./Images/ukraine.webp">
-                        <span>+380</span>
-                        <input type="tel" placeholder="Phone number" required>
-                    </div>
-
-                    <label>Card number</label>
-                    <div class="card-field">
-                        <input type="text" placeholder="Enter card">
-  
-                        <img src="./Images/Mastercard.webp" alt="Mastercard">
-                    </div>
-
-                    <label>Comment</label>
-                    <textarea placeholder="Enter text"></textarea>
-
-                    <button type="submit" class="orange-button">Submit</button>
-                </form>
-            </div>
         </div>
 
-        <div class="modal" id="modal3">
-            <div class="modal-content">
-                <button class="modal-close" id="btn-close3">×</button>
+    </header>
+
+    <main>
+
+        <section class="hero" id="home">
+
+            <div class="hero-content">
+
+                <h1>
+                    Treat yourself or a loved one to
+                    our finest ingredients for a moment
+                    of pure delight!
+                </h1>
+
+                <div class="hero-buttons">
+
+                    <a href="#products" class="orange-button" id="openbtn1">
+                        Buy now
+                    </a>
+
+                    <a href="#made" class="outline-button">
+                        How it's made
+                    </a>
+
+                </div>
+
+            </div>
+
+            <a href="#benefits" class="scroll">
+                Scroll down
+            </a>
+
+        </section>
+
+        <section class="benefits" id="benefits">
+
+            <div class="benefit">
+
+                <img src="./Images/chocolate_section_1.webp">
+
+                <h3>Unsurpassed taste</h3>
+
+                <p class="benefit_p">
+                    Crafted with the finest quality cocoa beans
+                    and a delicate balance of ingredients,
+                    our chocolates are a delight for the senses.
+                </p>
+
+            </div>
+
+            <div class="benefit">
+
+                <img src="/Images/Coin_section_1.webp">
+
+                <h3>Affordable price</h3>
+
+                <p class="benefit_p">
+                    Indulge in high-quality chocolate without
+                    breaking the bank. Our chocolates are
+                    affordable and delicious.
+                </p>
+
+            </div>
+
+            <div class="benefit">
+
+                <img src="./Images/spoon_section_1.webp">
+
+                <h3>Own production</h3>
+
+                <p class="benefit_p">
+                    We take pride in our own production process,
+                    ensuring that every chocolate is made
+                    with care and attention.
+                </p>
+
+            </div>
+
+        </section>
+
+        <section class="ingredients">
+
+            <h2 class="h2_ingredients">
+                IT ALL ADDS UP TO ONE EXCEPTIONAL
+            </h2>
+
+            <h2 class="yellow_Text_ingredients">
+                TASTE
+            </h2>
+
+            <h2 class="h2_ingredients_2">
+                SENSATION
+            </h2>
+
+            <p class="ingredients-mini_text">
+                At Simply Chocolate, we believe that the secret
+                to exceptional chocolate lies in the details.
+                From the sourcing of the finest ingredients
+                to the careful crafting of each individual piece,
+                every step of our process is a labor of love.
+            </p>
+
+            <div class="ingredients-cards">
+
+                <div class="scene">
+
+                    <div class="card">
+
+                        <div class="front ingredient-card milk-chocolate">
+
+                            <img src="./Images/choclate_section_2.webp">
+
+                            <h3>MILK CHOCOLATE</h3>
+
+                        </div>
+
+                        <div class="back">
+
+                            <h3>MILK CHOCOLATE</h3>
+
+                            <button>chocolate</button>
+                            <button>the benefits</button>
+
+                            <p>
+                                Milk chocolate is a solid chocolate confectionery containing cocoa, sugar and milk. It
+                                is the most consumed type of chocolate. Chocolate was originally sold and consumed as a
+                                beverage in pre-Columbian times...
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="scene">
+
+                    <div class="card">
+
+                        <div class="front ingredient-card milk">
+
+                            <img src="./Images/milk_section_2.webp">
+
+                            <h3>MILK</h3>
+
+                        </div>
+
+                        <div class="back">
+
+                            <h3>MILK</h3>
+
+                            <button>milk</button>
+                            <button>the benefits</button>
+
+                            <p>
+                                Milk is a white liquid food produced by the mammary glands of mammals. It is the primary
+                                source of nutrition for young mammals, including breastfed human infants, before they
+                                are able to digest solid food.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="scene">
+
+                    <div class="card">
+
+                        <div class="front ingredient-card nuts">
+
+                            <img src="./Images/nuts_section_2.webp">
+
+                            <h3>NUTS</h3>
+
+                        </div>
+
+                        <div class="back">
+
+                            <h3>NUTS</h3>
+
+                            <button>nuts</button>
+                            <button>the benefits</button>
+
+                            <p>
+                                Almonds, pistachios, and walnuts are some types of nuts that contain healthy nutrients.
+                                When eaten as part of a nutrient-dense diet, these 9 nuts may offer benefits such as
+                                reducing your risk of heart disease.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="scene">
+
+                    <div class="card">
+
+                        <div class="front ingredient-card sweet-chocolate">
+
+                            <img src="./Images/chocolate_chip_section_2.webp">
+
+                            <h3>SEMI-SWEET CHOCOLATE</h3>
+
+                        </div>
+
+                        <div class="back">
+
+                            <h3>SEMI-SWEET CHOCOLATE</h3>
+
+                            <button>sweet chocolate</button>
+                            <button>the benefits</button>
+
+                            <p>
+                                Semi-sweet chocolate has a cocoa solid content of 35 to 65%. One of the best ways to
+                                gain an understanding of this type of chocolate is to compare it to a different type of
+                                chocolate.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="made-section" id="made">
+
+            <div>
+                <h2>HOW IT'S</h2>
+                <h2>MADE</h2>
+            </div>
+
+            <div class="made-content">
+
+                <div class="made-image">
+
+                    <img src="./Images/chocolate_smthg_section_3.webp">
+
+                    <img src="./Images/play_section_3.webp">
+
+                </div>
+
+                <div class="made-text">
+
+                    <h3 class="video_h3">
+                        Try our chocolates today and
+                        discover the perfect balance of flavor
+                    </h3>
+
+                    <ul>
+
+                        <li>
+                            Heat the milk in a saucepan without
+                            bringing it to a boil. Add sugar and
+                            cocoa powder.
+                        </li>
+
+                        <li>
+                            At the same time, prepare a water bath.
+                            Melt the butter on it.
+                        </li>
+
+                        <li>
+                            Mix the milk mixture and melted butter.
+                            Mix thoroughly until a smooth consistency.
+                        </li>
+
+                        <li>
+                            Heat the mixture over low heat,
+                            stirring it constantly.
+                        </li>
+
+                        <li>
+                            Pour the chocolate into special containers
+                            and place in the refrigerator.
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="products" id="products">
+
+            <h2 class="white_products_text">OUR</h2>
+
+            <h2 class="yellow_products_text">PRODUCTS</h2>
+
+            <div class="product-cards">
+
+                <div class="product-card">
+
+                    <img src="./Images/orange_chocolate_section_4.webp">
+
+                    <h3>ORANGE</h3>
+
+                    <p>Dark chocolate</p>
+
+                    <button>45 UAH</button>
+
+                </div>
+
+                <div class="product-card">
+
+                    <img src="./Images/cranberry_chocolate_section_4.webp">
+
+                    <h3>APPLE&CRANBERRY</h3>
+
+                    <p>Milk chocolate</p>
+
+                    <button>50 UAH</button>
+
+                </div>
+
+                <div class="product-card">
+
+                    <img src="./Images/sea_salt_chocolate_section_4.webp">
+
+                    <h3>LIME&SEA SALT</h3>
+
+                    <p>Dark chocolate</p>
+
+                    <button>66 UAH</button>
+
+                </div>
+
+                <div class="product-card">
+
+                    <img src="./Images/pineapple_chocolate_section_4.webp">
+
+                    <h3>PINEAPPLE</h3>
+
+                    <p>Dark chocolate</p>
+
+                    <button>54 UAH</button>
+
+                </div>
+
+            </div>
+
+            <div class="dots">
+
+                <span class="active-dot"></span>
+                <span class="mini_dot"></span>
+                <span class="mini_dot"></span>
+                <span class="mini_dot"></span>
+                <span class="mini_dot"></span>
+                <span class="mini_dot"></span>
+
+            </div>
+
+        </section>
+
+        <section class="top-sellers" id="sellers">
+
+            <div class="sellers_mini_text">
+
+                <h2 class="sellers_mini_logo_1">TOP</h2>
+
+                <h2 class="sellers_mini_logo_2">SELLERS</h2>
+
+            </div>
+
+            <div class="seller-images">
+
+                <img src="./Images/nut_section_5.webp">
+
+                <img src="./Images/chocolate_section_5.webp">
+
+                <img src="./Images/rocher_section_5.webp">
+
+            </div>
+
+            <div class="sellers-bottom">
+
+                <p class="sellers_P">
+                    Crazy enough chocolate originates from a bean
+                    just like the coffee bean called Cacao.
+                    Cacao has been around for thousands of years
+                    and was first discovered by the Native
+                    American tribe called the Mayans.
+                </p>
+
+                <button class="sellers_button" id="openbtn2">
+                    Buy now
+                </button>
+
+            </div>
+
+        </section>
+
+        <section class="reviews" id="reviews">
+
+            <div class="mini_text_reviews">
+
+                <h2 class="first_mini_text_review">CHOCOLATE</h2>
+
+                <h2 class="second_mini_text_review">IS LOVED</h2>
+
+            </div>
+
+            <div class="review-cards">
+
+                <div class="review-card">
+
+                    <img src="./Images/first_person_section_6.webp">
+
+                    <h3 class="review_card_h3">
+                        Victoria Dobrzhanska
+                    </h3>
+
+                    <p class="review_card_p">
+                        I love this chocolate bar. Perfect
+                        combination of light crispy wafer,
+                        covered in a thin layer of chocolate.
+                    </p>
+
+                </div>
+
+                <div class="review-card">
+
+                    <img src="./Images/second_person_section_6.webp">
+
+                    <h3 class="review_card_h3">
+                        Nazar Babenko
+                    </h3>
+
+                    <p class="review_card_p">
+                        This chocolate confection is a delight.
+                        The taste is rich and the texture
+                        is smooth. I recommend it to everyone.
+                    </p>
+
+                </div>
+
+                <div class="review-card">
+
+                    <img src="./Images/third_person_section_6.webp">
+
+                    <h3 class="review_card_h3">
+                        Olena Kampusch
+                    </h3>
+
+                    <p class="review_card_p">
+                        Chocolate is a family favourite.
+                        The taste is wonderful and
+                        the quality is always excellent.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="dots">
+
+                <span class="big_dot"></span>
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </div>
+
+            <button class="review_button" id="openbtn3">
+                Leave a review
+            </button>
+
+        </section>
+
+        <section class="subscribe">
+
+            <h2>
+                EXPLORE OUR NEW<br>
+                CHOCOLATE FIRST
+            </h2>
+
+            <p>
+                From the velvety texture to the rich and complex
+                flavor, our New Chocolate is a true indulgence
+                that will leave you craving more.
+                Discover the perfect balance of sweetness
+                and sophistication.
+            </p>
+
+            <button class="orange-button" id="openbtn4">
+                Subscribe
+            </button>
+
+        </section>
+
+    </main>
+
+    <footer class="footer">
+
+        <div class="footer-top">
+
+            <h2 class="yellow_text_footer">Chocolate</h2>
+
+            <h2 class="white_text_footer">a delicious</h2>
+
+            <h2 class="white_text_footer_2">cure for a bad day</h2>
+
+            <div class="footer-contact">
+
+                <p>Contact us</p>
+
+                <a>+380 (68) 443-94-26</a>
+
+                <a>
+                    simplychoc@gmail.com
+                </a>
+
+            </div>
+
+            <div class="footer-socials">
+
+                <img src="./Images/networks_2.webp">
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+            <a href="#home">Home</a>
+            <a href="#made">How it's made?</a>
+            <a href="#products">Our products</a>
+            <a href="#sellers">Top sellers</a>
+            <a href="#reviews">Chocolate is loved</a>
+
+        </div>
+
+    </footer>
+
+    <div class="modal" id="modal2">
+
+        <div class="modal-content">
+
+            <button class="modal-close" id="closebtn2">
+                ×
+            </button>
+
+            <h2>
+                <span>BUY</span> NOW
+            </h2>
+
+            <div class="buy-products">
+
+                <div class="buy-product">
+
+                    <img class="buy-product-img" src="./Images/first_modal_chocolate.webp" alt="Chocolate 100 g">
+
+                    <p class="buy-product-text">100 g</p>
+
+                </div>
+
+                <div class="buy-product">
+
+                    <img class="buy-product-img" src="./Images/first_modal_chocolate_2.webp" alt="Chocolate 200 g">
+
+                    <p class="buy-product-text">200 g</p>
+
+                </div>
+
+                <div class="buy-product">
+
+                    <img class="buy-product-img" src="./Images/first_modal_chocolate_3.webp" alt="Chocolate 300 g">
+
+                    <p class="buy-product-text">300 g</p>
+
+                </div>
+
+            </div>
+
+            <form class="buy-form">
+
+                <label>Personal information</label>
+
+                <div class="name-fields">
+
+                    <input type="text" placeholder="Name" required>
+
+                    <input type="text" placeholder="Surname" required>
+
+                </div>
+
+                <label>Email</label>
+
+                <input type="email" placeholder="Enter your email" required>
+
+                <label>Phone number</label>
+
+                <div class="phone-field">
+
+                    <img src="./Images/ukraine.webp">
+
+                    <span>+380</span>
+
+                    <input type="tel" placeholder="Phone number" required>
+
+                </div>
+
+                <label>Card number</label>
+
+                <div class="card-field">
+
+                    <input type="text" placeholder="Enter card">
+
+                    <img src="./Images/Mastercard.webp" alt="Mastercard">
+
+                </div>
+
+                <label>Comment</label>
+
+                <textarea placeholder="Enter text"></textarea>
+
+                <button type="submit" class="orange-button">
+                    Submit
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+    <div class="modal" id="modal3">
+
+        <div class="modal-content">
+
+            <button class="modal-close" id="closebtn3">
+                ×
+            </button>
+
+            <h2>
+                LEAVE A REVIEW ABOUT<br>
+                <span>OUR CHOCOLATE</span>
+            </h2>
+
+            <form class="review-form">
+
+                <input type="text" placeholder="Name" required>
+
+                <input type="email" placeholder="Email" required>
+
+                <div class="phone-field">
+
+                    <img src="./Images/ukraine.webp">
+
+                    <span>+380</span>
+
+                    <input type="tel" placeholder="Phone number" required>
+
+                </div>
+
+                <textarea placeholder="Enter text"></textarea>
+
+                <button type="submit" class="orange-button" id="openbtn5">
+                    Send
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+    <div class="modal" id="modal4">
+
+        <div class="modal-content subscribe-content">
+
+            <button class="modal-close" id="closebtn4">
+                ×
+            </button>
+
+            <img src="./Images/modal_chocolate_background.webp" alt="Chocolate" class="subscribe-image">
+
+            <div class="subscribe-form-content">
 
                 <h2>
-                    LEAVE A REVIEW ABOUT<br>
-                    <span>OUR CHOCOLATE</span>
+                    EXPLORE OUR<br>
+                    <span>NEW CHOCOLATE</span> FIRST!
                 </h2>
 
-                <form class="review-form">
-                    <input type="text" placeholder="Name" required>
-                    <input type="email" placeholder="Email" required>
+                <form class="subscribe-form">
 
-                    <div class="phone-field">
-   
-                        <img src="./Images/ukraine.webp">
-                        <span>+380</span>
-                        <input type="tel" placeholder="Phone number" required>
-                    </div>
+                    <input type="email" placeholder="Enter your email" required>
 
-                    <textarea placeholder="Enter text"></textarea>
+                    <button type="submit" class="orange-button">
+                        Submit
+                    </button>
 
-                    <button type="submit" class="orange-button" id="btn-open5">Send</button>
                 </form>
+
             </div>
+
         </div>
 
-        <div class="modal" id="modal4">
-            <div class="modal-content subscribe-content">
-                <button class="modal-close" id="btn-close4">×</button>
+    </div>
 
-                <img src="./Images/modal_chocolate_background.webp" alt="Chocolate" class="subscribe-image">
+    <div class="modal" id="modal5">
 
-                <div class="subscribe-form-content">
-                    <h2>
-                        EXPLORE OUR<br>
-                        <span>NEW CHOCOLATE</span> FIRST!
-                    </h2>
+        <div class="modal-content thank-you-content">
 
-                    <form class="subscribe-form">
-                        <input type="email" placeholder="Enter your email" required>
-                        <button type="submit" class="orange-button">Submit</button>
-                    </form>
-                </div>
+            <button class="modal-close" id="closebtn5">
+                X
+            </button>
+
+            <img src="./Images/review_modal_thanks.webp" class="thank-you-image">
+
+            <div class="thank-you-text">
+
+                <h2 class="super_mini_modal">
+                    THANK YOU FOR YOUR FEEDBACK!
+                </h2>
+
+                <p>
+                    We are so happy to hear from you!
+                </p>
+
             </div>
+
         </div>
 
-        <div class="modal" id="modal5">
-            <div class="modal-content thank-you-content">
-                <button class="modal-close" id="btn-close5">X</button>
-
-               
-                <img src="./Images/review_modal_thanks.webp" class="thank-you-image">
-
-                <div class="thank-you-text">
-                    <h2 class="super_mini_modal">THANK YOU FOR YOUR FEEDBACK!</h2>
-                    <p>We are so happy to hear from you!</p>
-                </div>
-            </div>
-        </div>
+    </div>
 
 </body>
+
 </html>
